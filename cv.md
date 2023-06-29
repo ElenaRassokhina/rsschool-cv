@@ -1,9 +1,9 @@
 # **rsschool-cv**
 
 ******
-
-## **Elena Rassokhina**
 Junior Frontend Developer
+## **Elena Rassokhina**
+
 =============
 ## Contact information:
 * Phone: +49 1625707814
