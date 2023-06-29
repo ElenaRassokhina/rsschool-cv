@@ -4,7 +4,7 @@
 Junior Frontend Developer
 ## **Elena Rassokhina**
 
-=============
+
 ## Contact information:
 * Phone: +49 1625707814
 * E-mail: elena.a.rassokhina@gmail.com
