@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Elena Rassokhina</h1>
+        <h2>Junior Frontend Developer</h2>
+    </header>
+    <main>
+        <div class="sidebar">
+            <div class="photo_wrapper">
+                <img src="cv-foto.jpeg" alt="my cv foto">
+            </div>
+            <div class="sidebar_content">
+                <h3>Contact information:</h3>
+                <nav>
+                    <ul>
+                        <li>
+                            <strong>Phone:</strong> +49 162570xxxx
+                        </li>
+                        <li>
+                            <strong>E-mail:</strong> <a href="mailto:elena.a.rassokhina@gmail.com">
+                                elena.a.rassokhina@gmail.com</a>
+                        </li>
+                        <li>
+                            <strong>Address:</strong> Munich, Germany
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/elena-rassokhina-b50631250/?locale=en_US">Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ElenaRassokhina">Github</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <section>
+            <h2>Briefly About Myself:</h2>
+            <p>I have been working in digital marketing for 10 years. I was engaged in
+                promotion of my own online store. Website development was my hobby for a long time. Now
+                I want to be a Frontend Developer and i got professional certification to make my dream
+                come true.</p>
+            <div class="skills">
+                <h2>Skills:</h2>
+                <div class="scale">
+                    <div class="item">HTML, CSS</div>
+                    <div class="item">JavaScript Basics</div>
+                    <div class="item">Git, GitHub</div>
+                    <div class="item">VS Code</div>
+                    <div class="item">Bootstrap</div>
+                    <div class="item">Adobe Photoshop</div>
+                </div>
+            </div>
+            <h2>Education and Courses:</h2>
+            <ul>
+                <li>Novosibirsk Technical State University</li>
+                <li>Meta Front-End Developer Professional Certificate (in progress)</li>
+                <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+            </ul>
+            <h2>Code Example</h2>
+            <pre>
+function getPrices(taxBoolean) {
+    for (food of dishData){
+        var finalPrice;
+        if (taxBoolean === true) {
+            finalPrice = food.price * tax;
+        }
+        else if (taxBoolean === false) {
+            finalPrice = food.price;
+        }
+        else {
+            console.log("You need to pass a boolean to the getPrices call!");
+            return;
+        }
+        console.log('Dish: ' + food.name + " Price: $" + finalPrice);
+    }
+}
+                    </pre>
+            <h2>Languages:</h2>
+            <ul>
+                <li>English – B2/Intermediate</li>
+                <li>German – C1/Upper-intermediate</li>
+                <li>Russian - Nativ</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <a href="https://rs.school/js/"><img src="rs_school_js.svg" alt="rsschool" /></a>
+        <p>2023 <a href="https://github.com/ElenaRassokhina">Elena Rassokhina</a></p>
+    </footer>
+</body>
+
+</html>
